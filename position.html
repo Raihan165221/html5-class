@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+    <style>
+        .unique div,
+        .common {
+            height: 150px;
+            width: 150px;
+            border: 1px solid yellow;
+        }
+
+        .unique {
+            position: relative;
+        }
+
+        #red {
+            background-color: red;
+            /* position: relative; */
+            position: absolute;
+            top: 20px;
+
+        }
+
+        #green {
+            background-color: green;
+        }
+
+        #blue {
+            background-color: blue;
+        }
+
+        .common {
+            background-color: aqua;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>I can Added My Position</h1>
+    <h1>I can Added My Position</h1>
+    <h1>I can Added My Position</h1>
+
+    <section class="unique">
+        <div id="red"></div>
+        <div id="green"></div>
+        <div id="blue"></div>
+        <div class="common"></div>
+        <div class="common"></div>
+        <div class="common"></div>
+        <div class="common"></div>
+        <div class="common"></div>
+        <div class="common"></div>
+        <div class="common"></div>
+        <div class="common"></div>
+        <div class="common"></div>
+        <div class="common"></div>
+    </section>
+</body>
+
+</html>
